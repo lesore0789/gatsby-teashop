@@ -1,18 +1,31 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaShoppingCart } from "react-icons/fa"
+import BackgroundSection from "../components/Globals/BackgroundSection"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <FaShoppingCart />
+    <BackgroundSection
+      img={data.img.childImageSharp.fluid}
+      title="Sense & Sensibili[tea]"
+      styleClass="default-background"
+    />
   </Layout>
 )
+
+export const query = graphql`
+  {
+    img: file(relativePath: { eq: "tea2.jpeg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage

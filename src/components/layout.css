@@ -1,5 +1,5 @@
 :root {
-  --mainBlue: #2588d5;
+  --mainBlue: rgb(37, 136, 213);
   --lightBlue: #7cb9e8;
   --lightPeach: #e8b47c;
   --mainWhite: #fff;
@@ -30,4 +30,15 @@ h6 {
   cursor: pointer;
   color: var(--lightPeach);
   font-size: 2rem;
+}
+
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(37, 136, 213, 0.3), rgba(37, 136, 213, 0.3));
+  opacity: 1 !important;
+  background-position: center;
+  background-size: cover;
 }
