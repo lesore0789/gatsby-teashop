@@ -10,7 +10,9 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Sense & Sensibili[tea]"
+      title="Sense"
+      title2="&"
+      title3="Sensibili[tea]"
       styleClass="default-background"
     />
   </Layout>
