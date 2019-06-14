@@ -42,3 +42,13 @@ h6 {
   background-position: center;
   background-size: cover;
 }
+
+.btn-peach {
+  color: var(--mainBlue);
+  border-color: var(--lightPeach);
+}
+
+.btn-peach:hover {
+  color: var(--mainBlue);
+  background: var(--lightPeach);
+}
