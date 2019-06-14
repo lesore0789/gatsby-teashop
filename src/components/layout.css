@@ -52,3 +52,7 @@ h6 {
   color: var(--mainBlue);
   background: var(--lightPeach);
 }
+
+.footer {
+  background: var(--mainBlue);
+}
