@@ -1,6 +1,6 @@
 :root {
   --mainBlue: rgb(37, 136, 213);
-  --lightBlue: #7cb9e8;
+  --lightBlue: rgb(124, 185, 232);
   --lightPeach: #e8b47c;
   --mainWhite: #fff;
   --mainDark: #222;
@@ -24,6 +24,10 @@ h6 {
 
 .text-peach {
   color: var(--lightPeach);
+}
+
+.text-blue {
+  color: var(--mainBlue);
 }
 
 .cart-icon {
@@ -60,4 +64,8 @@ h6 {
 
 .about-background {
   min-height: 60vh;
+}
+
+.menu {
+  background: rgba(124, 185, 232, 0.3);
 }
