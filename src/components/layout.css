@@ -66,6 +66,7 @@ h6 {
   min-height: 60vh;
 }
 
-.menu {
+.menu,
+.contact {
   background: rgba(124, 185, 232, 0.3);
 }
