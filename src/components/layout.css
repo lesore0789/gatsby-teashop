@@ -90,3 +90,9 @@ h6 {
 .navbar-custom {
   background: rgba(124, 185, 232, 0.3) !important;
 }
+
+@media (max-width: 545px) {
+  .title {
+    font-size: 3em;
+  }
+}
