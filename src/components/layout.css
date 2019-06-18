@@ -86,6 +86,7 @@ h6 {
 }
 
 .menu,
-.contact {
-  background: rgba(124, 185, 232, 0.3);
+.contact,
+.navbar-custom {
+  background: rgba(124, 185, 232, 0.3) !important;
 }
