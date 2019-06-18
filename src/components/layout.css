@@ -25,15 +25,33 @@ h6 {
 .text-peach {
   color: var(--lightPeach);
 }
+.text-white {
+  color: var(--mainWhite);
+}
 
 .text-blue {
   color: var(--mainBlue);
 }
 
+.fa-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.fa-icon:hover {
+  color: var(--lightPeach);
+}
 .cart-icon {
   cursor: pointer;
   color: var(--lightPeach);
   font-size: 2rem;
+}
+
+.nav-item .nav-link {
+  color: var(--mainBlue) !important;
+}
+.nav-link.linko:hover {
+  color: var(--lightBlue) !important;
 }
 
 .default-background,
