@@ -51,11 +51,12 @@ h6 {
 .btn-peach {
   color: var(--mainBlue);
   border-color: var(--lightPeach);
+  border-width: 2px;
 }
 
 .btn-peach:hover {
-  color: var(--mainBlue);
-  background: var(--lightPeach);
+  color: var(--mainWhite);
+  background: var(--mainBlue);
 }
 
 .footer {
