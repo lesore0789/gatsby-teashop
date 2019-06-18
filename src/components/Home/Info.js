@@ -6,7 +6,7 @@ export default function Info() {
   return (
     <section className="py-5">
       <div className="container">
-        <Title title="Our Story" />
+        <Title title="Our Process" />
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-muted mb-5">
@@ -19,7 +19,7 @@ export default function Info() {
             </p>
             <Link to="/about">
               <button className="btn btn-peach text-uppercase">
-                About Page
+                Learn More
               </button>
             </Link>
           </div>
